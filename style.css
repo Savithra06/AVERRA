@@ -1,0 +1,2350 @@
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+* {
+    margin: 0;
+    color: rgb(1, 11, 1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.sec {
+    padding-top: 90px;
+}
+
+.nav--s2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo__s1 {
+    width: 40px;
+    height: 40px;
+
+}
+
+.logo__s2 {
+    color: rgb(1, 11, 1);
+}
+
+.heading {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+
+.plan-ai {
+    text-decoration: none;
+    color: #010b01;
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.plan-ai:hover {
+    background-color: hsl(120, 54%, 3%);
+    color: black;
+    box-shadow: 0 4px 10px black;
+    cursor: pointer;
+
+}
+
+
+.heading__s1 {
+    text-decoration: none;
+    color: rgb(1, 11, 1);
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.heading__s1:hover {
+    background-color: rgb(236, 229, 229);
+    color: black;
+    box-shadow: 0 4px 10px black;
+    cursor: pointer;
+
+}
+
+.heading__s2 {
+    text-decoration: none;
+    color: rgb(1, 11, 1);
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.heading__s2:hover {
+    background-color: rgb(236, 229, 229);
+    color: black;
+    box-shadow: 0 4px 10px black;
+    cursor: pointer;
+}
+
+.heading__s3 {
+    text-decoration: none;
+    color: rgb(1, 11, 1);
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.heading__s3:hover {
+    background-color: rgb(236, 229, 229);
+    color: black;
+    box-shadow: 0 4px 10px black;
+    cursor: pointer;
+}
+
+.head-logo {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    background-color: #010b01;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.place {
+    font-size: 50px;
+    text-align: center;
+}
+
+.option {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.opt1 {
+    text-decoration: none;
+}
+
+.opt1:hover {
+    text-decoration: underline;
+}
+
+.opt2 {
+    text-decoration: none;
+}
+
+.opt2:hover {
+    text-decoration: underline;
+}
+
+.opt3 {
+    text-decoration: none;
+}
+
+.opt3:hover {
+    text-decoration: underline;
+}
+
+.opt4 {
+    text-decoration: none;
+}
+
+.opt4:hover {
+    text-decoration: underline;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 60px;
+    margin: 30px auto;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.search-box {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.plan-ai1 {
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+
+
+
+.s-btn {
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.ask {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+
+.ask p {
+    border: black solid 1px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.greenbox {
+    background-color: #34A853;
+    display: flex;
+    margin-top: 20px;
+}
+
+.greenbox-img {
+    margin: 20px;
+}
+
+.greenbox-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.greenbox-text h1 {
+    font-size: 60px;
+}
+
+.greenbox-text button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width: fit-content;
+
+}
+
+.text {
+    margin: 20px;
+    gap: 10px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1__1 {
+    position: relative;
+}
+
+.card-1__1 h3 {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+}
+
+.card-1__1 img {
+    height: 200px;
+    width: 250px;
+}
+
+.tour {
+    margin: 20px;
+
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dots span {
+    width: 8px;
+    height: 8px;
+    background-color: #34A853;
+    border-radius: 50%;
+    border: solid black 1px;
+    align-items: center;
+}
+
+.dots .not-filled {
+    border: solid black 1px;
+    background-color: white;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-2_1 {
+    position: relative;
+    width: 250px;
+}
+
+.card-2_1 img {
+    width: 250px;
+    height: 200px;
+}
+
+.card-2_1 h2 {
+    font-size: medium;
+    width: 250px;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ramnad{
+    margin:20px;
+    
+}
+.rmd-img{
+    display: flex;
+   justify-content: space-between;
+
+}
+.rmd-img >div{
+    width: 250px;
+}
+.rmd-img img{
+     width:250px;
+     height: 200px;
+}
+.dot{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dot span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #34A853;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+.temple{
+    position: relative;
+    width:250px;
+    height:200px;
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graybox {
+    background-color: #b6bbb7ba;
+    display: flex;
+    margin-top: 20px;
+}
+
+.graybox-img {
+    margin: 20px;
+    width: 50%;
+}
+
+.graybox-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.graybox-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin:30px;
+}
+
+.graybox-text button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.dot1 span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #34A853;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+.iconic{
+    margin:20px;
+}
+.foreign{
+display: flex;
+justify-content: space-between;
+
+}
+.foreign_1{
+position: relative;
+}
+.foreign_1 img{
+    width:250px;
+    height:200px;
+}
+.foreign_heading{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    color:white;
+}
+.bike{
+    display:flex;
+    background-color: rgb(241, 232, 232);
+}
+.bike_ride img{
+margin:30px;
+}
+.bike_ride-1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.bike_ride-1 button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width: fit-content;
+}
+.last{
+    margin:20px;
+    display: flex;
+    background-color: #010b01;
+
+}
+.last-1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 20px;
+
+
+}
+.last-1-1 {
+    color:white;
+    margin:0 20px;
+}
+.last-1-2{
+    background-color: rgb(178, 136, 85);
+    border-radius: 50px;
+    width: fit-content;
+    padding: 15px;
+    border:none;
+}
+.last-2 img{
+    margin:30px;
+    width:500px;
+    height: 500px;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.contact {
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+
+
+.contact-11 {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+.contact__txt,
+.contact-21 {
+    flex: 1;
+}
+
+
+.contact__txt p,
+.contact-21 p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+
+.head {
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+
+
+.contact-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.contact__logo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+
+.contact__term {
+    width: 55%;
+    padding-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+
+
+.contact__term h4 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+
+.contact__term h4:hover {
+    color: darkgreen;
+    text-decoration-color: darkgreen;
+    cursor: pointer;
+}
+
+
+
+
+.contact-12_s2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.contact__desc {
+    flex: 1;
+}
+
+
+.contact__desc p {
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+
+
+
+.contact-22 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+
+.contact-22__box {
+    display: flex;
+    gap: 10px;
+    margin:15px;
+}
+
+
+.contact-22__box b {
+    border: solid gray 1px;
+    border-radius: 10px;
+    padding: 5px 90px 5px 8px;
+}
+
+
+.contact-22__box b:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+
+.contact-22__icon {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+.contact__txt p:not(.head):hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: white;
+}
+
+
+/* ================= NAVBAR ================= */
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+.navbar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: 42px;
+    height: 42px;
+}
+
+.logo h2 {
+    font-size: 23px;
+}
+
+.nav--s2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.heading a:hover,
+.heading .active {
+    color: #008060;
+}
+
+.head-logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.head-logo i {
+    font-size: 18px;
+}
+
+.head-logo h4 {
+    font-size: 14px;
+}
+
+.btn {
+    border: none;
+    background-color: #000;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* ================= HERO ================= */
+.discover-hero {
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+
+.discover-hero > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.hero-content p {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.search-boxx {
+    width: 500px;
+    height: 50px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 6px 0 18px;
+}
+
+.search-boxx i {
+    font-size: 17px;
+}
+
+.search-boxx input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0 12px;
+}
+
+.search-boxx button {
+    height: 40px;
+    padding: 0 22px;
+
+    border: none;
+    border-radius: 22px;
+
+    background-color: #000;
+    color: white;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* ================= COMMON SECTION ================= */
+
+.section {
+    width: 88%;
+    margin: 70px auto;
+}
+
+.section > h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.subtitle { 
+    color: #666;
+     margin-bottom: 28px;
+ }
+
+
+/* ================= INTEREST ================= */
+
+.interest-container {
+    display: flex;
+    gap: 20px;
+}
+
+.interest-card {
+    flex: 1;
+    height: 280px;
+
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.interest-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: transform 0.3s;
+}
+
+.interest-card:hover img {
+    transform: scale(1.06);
+}
+
+.interest-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    padding: 22px;
+
+    color: white;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.8)
+    );
+}
+
+.interest-text h3 {
+    font-size: 22px;
+    margin-bottom: 7px;
+    color: white;
+}
+
+.interest-text p {
+    font-size: 12px;
+    line-height: 1.4;
+    color:white;
+}
+
+
+/* ================= DESTINATIONS ================= */
+
+.destination-container {
+    display: flex;
+    gap: 22px;
+}
+
+.destination-card {
+    flex: 1;
+    border-radius: 14px;
+    overflow: hidden;
+
+    background-color: white;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.destination-image {
+    height: 220px;
+    position: relative;
+}
+
+.destination-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heart {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.heart i {
+    font-size: 18px;
+}
+
+.destination-content {
+    padding: 18px;
+}
+
+.destination-content h3 {
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.destination-content p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.destination-content span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #008060;
+}
+
+
+/* ================= EXPERIENCES ================= */
+
+.experience-container {
+    display: flex;
+    gap: 25px;
+}
+
+.experience-card {
+    flex: 1;
+
+    border: 1px solid #ddd;
+    border-radius: 14px;
+
+    overflow: hidden;
+    background: white;
+}
+
+.experience-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.experience-card div {
+    padding: 18px;
+}
+
+.experience-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.experience-card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* ================= INSPIRATION ================= */
+
+.inspiration {
+    width: 88%;
+    height: 330px;
+
+    margin: 80px auto;
+
+    border-radius: 18px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url("./Images/inspiration.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.inspiration-content {
+    width: 520px;
+    margin-left: 60px;
+    color: white;
+}
+
+.inspiration-content h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.inspiration-content p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.inspiration-content button {
+    border: none;
+    background-color: white;
+    color: black;
+
+    padding: 12px 22px;
+    border-radius: 25px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background-color: #f3f3f3;
+    margin-top: 80px;
+}
+
+.footer-content {
+    width: 88%;
+    margin: auto;
+
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h2 {
+    margin-bottom: 15px;
+}
+
+.footer-column h3 {
+    margin-bottom: 18px;
+}
+
+.footer-column p {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+
+    font-size: 13px;
+    color: #666;
+}
+
+/* ================= FOOD PAGE ================= */
+
+.food-hero {
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.food-hero > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food-hero-content {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.food-hero-content h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.food-hero-content p {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+
+/* ================= SEARCH ================= */
+
+.food-search {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 6px 0 18px;
+}
+
+.food-search i {
+    font-size: 17px;
+}
+
+.food-search input {
+    flex: 1;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    font-size: 15px;
+    padding: 0 12px;
+}
+
+.food-search button {
+    height: 40px;
+    padding: 0 22px;
+
+    border: none;
+    border-radius: 22px;
+
+    background-color: #000;
+    color: white;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* ================= FOOD SECTION ================= */
+
+.food-section {
+    width: 88%;
+    margin: 70px auto;
+}
+
+.food-section h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.food-subtitle {
+    color: #666;
+    margin-bottom: 28px;
+}
+
+
+/* ================= FOOD CARDS ================= */
+
+.food-container {
+    display: flex;
+    gap: 22px;
+}
+
+.food-card {
+    flex: 1;
+    border-radius: 14px;
+    overflow: hidden;
+
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.food-card div {
+    padding: 18px;
+}
+
+.food-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.food-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* ================= LOCAL FOOD ================= */
+
+.local-food {
+    display: flex;
+    gap: 22px;
+}
+
+.local-card {
+    flex: 1;
+    height: 230px;
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.local-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: transform 0.3s;
+}
+
+.local-card:hover img {
+    transform: scale(1.06);
+}
+
+.local-card h3 {
+    position: absolute;
+    left: 20px;
+    bottom: 18px;
+
+    color: white;
+    font-size: 22px;
+}
+
+
+/* ================= FOOD BANNER ================= */
+
+.food-banner {
+    width: 88%;
+    height: 330px;
+
+    margin: 80px auto;
+    border-radius: 18px;
+
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+}
+
+.food-banner > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food-banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.food-banner-content {
+    position: absolute;
+    z-index: 1;
+
+    width: 520px;
+    margin-left: 60px;
+}
+
+.food-banner-content h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.food-banner-content p {
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.food-banner-content button {
+    border: none;
+    background-color: white;
+    color: black;
+
+    padding: 12px 22px;
+    border-radius: 25px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+/*-------RESPONSIVE------*/
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+
+/* ---------- GENERAL ---------- */
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* ---------- HOME NAVBAR ---------- */
+
+.navbar {
+    padding: 0 18px;
+}
+
+.nav--s2 {
+    gap: 15px;
+}
+
+.heading {
+    gap: 12px;
+}
+
+.heading a {
+    font-size: 14px;
+}
+
+
+/* ---------- HOME HERO ---------- */
+
+.place {
+    font-size: 40px;
+}
+
+.search {
+    width: 90%;
+}
+
+.ask {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* ---------- HOME GREEN BOX ---------- */
+
+.greenbox {
+    flex-direction: column;
+}
+
+.greenbox-img {
+    margin: 15px;
+}
+
+.greenbox-img img {
+    width: 100%;
+}
+
+.greenbox-text {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.greenbox-text h1 {
+    font-size: 42px;
+}
+
+
+/* ---------- HOME INTEREST CARDS ---------- */
+
+.card-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.card-1__1 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* ---------- HOME EXPERIENCE CARDS ---------- */
+
+.card-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-2_1 {
+    width: 100%;
+}
+
+.card-2_1 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-2_1 h2 {
+    width: 100%;
+}
+
+
+/* ---------- RAMNAD ---------- */
+
+.rmd-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.rmd-img > div {
+    width: 100%;
+}
+
+.rmd-img img,
+.temple {
+    width: 100%;
+}
+
+
+/* ---------- GRAY BOX ---------- */
+
+.graybox {
+    flex-direction: column;
+}
+
+.graybox-img,
+.graybox-text {
+    width: auto;
+}
+
+.graybox-img {
+    margin: 15px;
+}
+
+.graybox-text {
+    margin: 25px;
+    text-align: center;
+}
+
+
+/* ---------- ICONIC ---------- */
+
+.foreign {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.foreign_1 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* ---------- BIKE SECTION ---------- */
+
+.bike {
+    flex-direction: column;
+}
+
+.bike_ride img {
+    width: calc(100% - 40px);
+    height: auto;
+    margin: 20px;
+}
+
+.bike_ride-1 {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* ---------- LAST SECTION ---------- */
+
+.last {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.last-1 {
+    margin: 30px 20px;
+}
+
+.last-2 img {
+    width: calc(100% - 40px);
+    height: auto;
+    margin: 20px;
+}
+
+
+/* ---------- HOME FOOTER ---------- */
+
+.contact-11 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.contact-12,
+.contact-12_s2 {
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact__term {
+    width: 100%;
+    padding-left: 0;
+}
+
+.contact__desc p {
+    width: 100%;
+}
+
+
+/* =====================================================
+   DISCOVER PAGE
+   ===================================================== */
+
+.discover-hero {
+    height: 400px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+}
+
+.search-boxx {
+    width: 80%;
+}
+
+.section {
+    width: 92%;
+}
+
+.interest-container,
+.destination-container,
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.interest-card {
+    height: 260px;
+}
+
+.destination-image {
+    height: 210px;
+}
+
+
+/* ---------- DISCOVER INSPIRATION ---------- */
+
+.inspiration {
+    width: 92%;
+}
+
+.inspiration-content {
+    width: 60%;
+    margin-left: 35px;
+}
+
+
+/* ---------- DISCOVER FOOTER ---------- */
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+/* =====================================================
+   FOOD PAGE
+   ===================================================== */
+
+.food-search {
+    width: 85%;
+}
+
+.food-container,
+.local-food {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.food-card {
+    width: 100%;
+}
+
+.local-card {
+    width: 100%;
+}
+
+
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+
+/* ---------- GENERAL ---------- */
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* =====================================================
+   NAVBAR
+   ===================================================== */
+
+.navbar {
+    height: 65px;
+    padding: 0 12px;
+}
+
+.logo {
+    gap: 4px;
+}
+
+.logo img,
+.logo__s1 {
+    width: 34px;
+    height: 34px;
+}
+
+.logo h2,
+.logo__s2 {
+    font-size: 18px;
+}
+
+.nav--s2 {
+    gap: 8px;
+}
+
+.heading {
+    gap: 4px;
+}
+
+.heading a {
+    font-size: 11px;
+    padding: 5px;
+}
+
+.head-logo {
+    display: none;
+}
+
+.btn {
+    padding: 7px 12px;
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   HOME
+   ===================================================== */
+
+.sec {
+    padding-top: 80px;
+}
+
+.place {
+    font-size: 30px;
+    line-height: 1.2;
+    padding: 0 10px;
+}
+
+.option {
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.option a {
+    font-size: 13px;
+}
+
+
+/* ---------- HOME SEARCH ---------- */
+
+.search {
+    width: 95%;
+    height: 55px;
+    margin: 25px auto;
+    padding: 0 6px;
+}
+
+.search-icon {
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.search-box {
+    width: 100%;
+    min-width: 0;
+    font-size: 13px;
+    padding: 8px 5px;
+}
+
+.plan-ai1 {
+    display: none;
+}
+
+.s-btn {
+    padding: 10px 13px;
+    font-size: 12px;
+}
+
+
+/* ---------- TRY ASKING ---------- */
+
+.ask {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.ask h4 {
+    margin-bottom: 3px;
+}
+
+.ask p {
+    font-size: 12px;
+    padding: 8px 14px;
+}
+
+
+/* ---------- GREEN BOX ---------- */
+
+.greenbox {
+    margin-top: 25px;
+}
+
+.greenbox-img {
+    margin: 10px;
+}
+
+.greenbox-img img {
+    width: 100%;
+    height: auto;
+}
+
+.greenbox-text {
+    padding: 25px 15px;
+    gap: 15px;
+}
+
+.greenbox-text h1 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.greenbox-text p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* ---------- SECTION HEADINGS ---------- */
+
+.text,
+.tour,
+.ramnad,
+.iconic {
+    margin: 25px 10px;
+}
+
+.text h2,
+.tour h2,
+.ramnad h2,
+.iconic h2 {
+    font-size: 24px;
+}
+
+
+/* ---------- INTEREST CARDS ---------- */
+
+.card-1 {
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.card-1__1 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* ---------- EXPERIENCE CARDS ---------- */
+
+.card-2 {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin: 0 10px;
+}
+
+.card-2_1 {
+    width: 100%;
+}
+
+.card-2_1 img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card-2_1 h2 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+/* ---------- RAMNAD CARDS ---------- */
+
+.rmd-img {
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.rmd-img > div {
+    width: 100%;
+}
+
+.rmd-img img,
+.temple {
+    width: 100%;
+    height: 230px;
+}
+
+.rmd-img h2 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
+/* ---------- GRAY BOX ---------- */
+
+.graybox {
+    margin-top: 30px;
+}
+
+.graybox-img {
+    width: auto;
+    margin: 10px;
+}
+
+.graybox-img img {
+    width: 100%;
+    height: 250px;
+}
+
+.graybox-text {
+    width: auto;
+    margin: 20px 15px;
+    gap: 15px;
+}
+
+.graybox-text h1 {
+    font-size: 28px;
+}
+
+.graybox-text p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* ---------- ICONIC ---------- */
+
+.foreign {
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.foreign_1 img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+
+/* ---------- BIKE ---------- */
+
+.bike_ride img {
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+.bike_ride-1 {
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.bike_ride-1 h2 {
+    font-size: 25px;
+}
+
+.bike_ride-1 p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* ---------- LAST ---------- */
+
+.last {
+    margin: 15px 10px;
+}
+
+.last-1 {
+    margin: 30px 15px;
+}
+
+.last-1-1 {
+    margin: 0;
+}
+
+.last-1 h1 {
+    font-size: 28px;
+}
+
+.last-1 h3 {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.last-2 img {
+    width: calc(100% - 20px);
+    height: auto;
+    margin: 10px;
+}
+
+
+/* =====================================================
+   HOME FOOTER
+   ===================================================== */
+
+.contact {
+    padding: 0 20px;
+}
+
+.contact-11 {
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.contact-12,
+.contact-12_s2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__term {
+    width: 100%;
+    padding: 0;
+    gap: 8px 12px;
+}
+
+.contact__term h4 {
+    font-size: 12px;
+}
+
+.contact__desc p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.contact-22__box {
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+
+.contact-22__box b {
+    padding: 6px 25px 6px 8px;
+}
+
+.contact-22__icon {
+    gap: 15px;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+
+/* =====================================================
+   DISCOVER PAGE
+   ===================================================== */
+
+.discover-hero {
+    height: 430px;
+    margin-top: 65px;
+}
+
+.hero-content {
+    padding: 15px;
+}
+
+.hero-content h1 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.search-boxx {
+    width: 95%;
+    height: 48px;
+}
+
+.search-boxx input {
+    font-size: 13px;
+    min-width: 0;
+}
+
+.search-boxx button {
+    padding: 0 15px;
+    font-size: 12px;
+}
+
+
+/* ---------- DISCOVER SECTIONS ---------- */
+
+.section {
+    width: 92%;
+    margin: 45px auto;
+}
+
+.section > h2 {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* ---------- INTEREST ---------- */
+
+.interest-container {
+    grid-template-columns: 1fr;
+}
+
+.interest-card {
+    height: 230px;
+}
+
+
+/* ---------- DESTINATIONS ---------- */
+
+.destination-container {
+    grid-template-columns: 1fr;
+}
+
+.destination-image {
+    height: 230px;
+}
+
+.destination-content h3 {
+    font-size: 20px;
+}
+
+
+/* ---------- EXPERIENCES ---------- */
+
+.experience-container {
+    grid-template-columns: 1fr;
+}
+
+.experience-card img {
+    height: 230px;
+}
+
+
+/* ---------- INSPIRATION ---------- */
+
+.inspiration {
+    width: 92%;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.inspiration-content {
+    width: auto;
+    margin: 20px;
+}
+
+.inspiration-content h2 {
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.inspiration-content p {
+    font-size: 14px;
+}
+
+
+/* ---------- DISCOVER FOOTER ---------- */
+
+.footer-content {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.footer-column h2 {
+    font-size: 22px;
+}
+
+
+/* =====================================================
+   FOOD PAGE
+   ===================================================== */
+
+.food-hero {
+    height: 430px;
+    margin-top: 65px;
+}
+
+.food-hero-content {
+    padding: 15px;
+}
+
+.food-hero-content h1 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.food-hero-content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.food-search {
+    width: 95%;
+    height: 48px;
+}
+
+.food-search input {
+    font-size: 13px;
+    min-width: 0;
+}
+
+.food-search button {
+    padding: 0 15px;
+    font-size: 12px;
+}
+
+
+/* ---------- FOOD SECTIONS ---------- */
+
+.food-section {
+    width: 92%;
+    margin: 45px auto;
+}
+
+.food-section h2 {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.food-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* ---------- FOOD CARDS ---------- */
+
+.food-container {
+    grid-template-columns: 1fr;
+}
+
+.food-card img {
+    height: 230px;
+}
+
+.food-card h3 {
+    font-size: 19px;
+}
+
+
+/* ---------- LOCAL FOOD ---------- */
+
+.local-food {
+    grid-template-columns: 1fr;
+}
+
+.local-card {
+    height: 230px;
+}
+
+
+/* ---------- FOOD BANNER ---------- */
+
+.food-banner {
+    width: 92%;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.food-banner-content {
+    width: auto;
+    margin: 20px;
+}
+
+.food-banner-content h2 {
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.food-banner-content p {
+    font-size: 14px;
+}
+
+
+/* ---------- FOOD / DISCOVER FOOTER ---------- */
+
+footer {
+    margin-top: 50px;
+}
+
+.footer-content {
+    width: 90%;
+}
+
+.footer-bottom {
+    font-size: 12px;
+    padding: 18px 10px;
+}
+
+
+}
